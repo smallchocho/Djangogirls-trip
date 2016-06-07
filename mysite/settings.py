@@ -27,10 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-SITE_ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE_ROOT = os.path.abspath(os.path.join(SITE_ROOT, '../'))
 
-STATIC_ROOT = os.path.join(SITE_ROOT, 'collectedstatic')
 # Application definition
 
 INSTALLED_APPS = (
@@ -104,3 +101,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
