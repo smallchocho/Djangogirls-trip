@@ -1,8 +1,8 @@
-h1 a {
+h100 a {
        color: #FCA205;
        font-family: 'Lobster';
    }
-body {
+body2 {
          padding-left: 15px;
        }
 .page-header {
@@ -26,8 +26,8 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    float: right;
-    color: #828282;
+    float: left;
+    color: #FCA205;
 }
 
 .save {
