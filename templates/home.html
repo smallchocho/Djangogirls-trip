@@ -18,13 +18,7 @@
             {% else %}
             <div class="thumbnail thumbnail-default"></div>
             {% endif %}
-            {% if post.video %}
-            <div class="thumbnail">
-                <iframe width="400" height="400"src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
-            </div>
-            {% else %}
-            <div class="thumbnail thumbnail-default"></div>
-            {% endif %}
+            
             <div class="post-content read-more-block">
                 {{ post.content }}
             </div>
